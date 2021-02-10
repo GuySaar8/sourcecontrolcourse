@@ -1,0 +1,13 @@
+1) Create a job is executing a python script. Python is not mandatory. You can use a bash script as well.
+A complex script is wellcome. Requierement of the script is to run with 
+at least 2 arguments.
+Examples: 
+$ some_script.py arg1 arg2
+$ another_script.py abs 45 ertttyyyy
+
+2) All these argumets are input parameters in Jenkins job.
+3) Build few times with different parameters values.
+4) Check the "Consule Output" at the each build and compare with previous builds.
+5) Make failure simulations in order to see the build is failed (red):
+compilation error, functional error, incorrect input, etc.
+5) To improve your job by checking input parameters. To fail the job if number of arguments is more than 2. 
