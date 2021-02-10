@@ -1,0 +1,28 @@
+1.1 create a directory and restrict it's writing, try to create a new file in it.
+1.2 create a directory and restrict it's reading, try to go inside it.
+2.1 create a file and restrict it's writing, try to write to it.
+2.2 create a file and restrict it's reading, try to read it.
+
+3.1 Open gedit and write "Hello world" to a file and save.
+While the gedit is open print the file content to the same terminal where the gedit is running.
+3.2 Close the gedit with out closing the terminal or killing the process.
+3.3 Kill the terminal you were using.
+
+4.1 Open 3 gedits and list their's process IDs.
+4.2 Kill those gedits.
+4.3 Write a call that will kill all gedits if there are more than 2.
+
+5.Create a global variable named "greeting_name" with the value of your name.
+  print the string "Hello 'your_name'" using the variable.
+
+6.1 Create an alias to a command by with you retrive errors from all the .log files
+    in your current directory(error is indicated by the apearnce on error word).
+    *Bonus create it in such a manor that the name of the file being read will appear.
+6.2 Set up an enviorment at your Documents/ex4 directory.
+6.3 *Bonus Create a typo correcter for the 'cd' command using alias.
+
+7.1 Create an zipped version of the 1.log file.
+7.2 Extract the file.
+7.3 Create a zip of ex4 folder.
+7.4 Extract the directory.
+
